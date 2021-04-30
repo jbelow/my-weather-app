@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
 
+  //TODO: It might be erroring out because it loads the page before the data and then it gets the data in later so that is way it "works"?
 
   const [lat, setLat] = useState([]);
   const [long, setLong] = useState([]);
